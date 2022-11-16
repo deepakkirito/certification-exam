@@ -19,9 +19,9 @@ $(document).ready(function () {
 
         if (userName == 'kirito' && passWord == 'kirito') {
 
-            // $('#nextPage').attr('href', './orderListingPage.html')
-            alert('Login Successfully!!!');
             localStorage.setItem("username", "kirito");
+            alert('Login Successfully!!!');
+            $('#nextPage').attr('href', './orderListingPage.html');
 
         } else if(userName == '' && passWord == '') {
 
