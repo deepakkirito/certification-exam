@@ -125,6 +125,7 @@ button:active{
 
 table{
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 thead{
@@ -137,31 +138,40 @@ thead td{
     height: 60px;
     font-weight: bolder;
     padding-left: 15px;
-    font-size: 14px;
+    font-size: 16px;
+    text-decoration: underline;
 }
 
-table td:first-of-type{
+tbody td:first-of-type{
     width: 60px;
+    color: #8c8c8c;
+
 }
 
-table td:nth-of-type(2){
+tbody td:nth-of-type(2){
     width: 150px;
 }
 
-table td:nth-of-type(3){
+tbody td:nth-of-type(3){
     width: 210px;
+    color: #8c8c8c;
+
 }
 
-table td:nth-of-type(4){
+tbody td:nth-of-type(4){
     width: 150px;
 }
 
-table td:nth-of-type(5){
+tbody td:nth-of-type(5){
     width: 130px;
+    color: #8c8c8c;
+
 }
 
-table td:nth-of-type(6){
+tbody td:nth-of-type(6){
     width: 220px;
+    color: #8c8c8c;
+
 }
 
 tbody tr{
@@ -175,7 +185,7 @@ tbody td{
     width: 120px;
     height: 70px;
     padding-left: 12px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /* <============================Body End================================> */
