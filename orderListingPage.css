@@ -72,6 +72,7 @@ main h1{
 
 .wrapper{
     display: flex;
+    margin-bottom: 10%;
 }
 
 .left{
@@ -114,14 +115,15 @@ thead td{
     height: 60px;
     font-weight: bolder;
     padding-left: 15px;
-    font-size: 14px;
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 tbody tr{
     margin-bottom: 20px;
     background-color: #fff;
-    box-shadow: -3px 3px 9px rgba(128, 128, 128, 0.301);
     border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.237);
     /* display: flex; */
 }
 
@@ -131,26 +133,42 @@ tbody td{
     height: 60px;
     padding-left: 12px;
     font-size: 15px;
+    border: none;
+    font-size: 14px;
 }
 
-table td:first-of-type{
+#tableBody td:first-of-type{
     width: 150px;
+    color: #8c8c8c;
 }
 
-table td:nth-of-type(2){
+#tableBody td:nth-of-type(2){
     width: 230px;
+    font-weight: bold;
 }
 
-table td:nth-of-type(3){
+#tableBody td:nth-of-type(3){
     width: 160px;
 }
 
-table td:nth-of-type(4){
+#tableBody td:nth-of-type(4){
     width: 120px;
+    color: #8c8c8c;
 }
 
-table td:nth-of-type(5){
+#tableBody td:nth-of-type(5){
     width: 120px;
+    font-size: 15px;
+}
+
+#tableBody p:first-of-type{
+    
+    font-weight: bold;
+}
+
+#tableBody p:last-of-type{
+    color: #8c8c8c;   
+    
 }
 
 /* <============================Body End================================> */
